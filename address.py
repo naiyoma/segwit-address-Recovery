@@ -1,8 +1,8 @@
 from bitcoinlib.wallets import Wallet
 
-seedphrase = "torch spy holiday thunder useless atom blanket fragile canyon industry hawk faith slender tray horse mobile dash modify close purchase rely expand country armor"
+seedphrase = "<entre seed phrase>"
 def wallet_recovery(seedphrase):
-    wallet_name = "ttttt"
+    wallet_name = "<entre with walletname>"
     witness_type = "segwit"
     network = "regtest"
     w = Wallet.create(
